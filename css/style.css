@@ -22,7 +22,7 @@ header {
     display: flex;
 }
 
-.project {
+.hero__project {
     position: absolute;
     left: 152px;
     top: 50px;
@@ -37,13 +37,13 @@ header {
     margin-right: 165px;
 }
 
-.header_links {
+.hero__header-links {
     display: flex;
     gap: 32px;
     margin-top: 49px;
 }
 
-.header_links span {
+.hero__header-links span {
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
@@ -55,16 +55,16 @@ header {
     cursor: pointer;
 }
 
-.header_links span:nth-child(2) {
+.hero__header-links span:nth-child(2) {
     text-decoration: underline;
     text-underline-offset: 6px;
     text-decoration-thickness: 2px;
 }
-.point-animations{
+.hero__point-animations{
     position: absolute;
     width: auto;
 }
-.union{
+.hero__union{
     margin-top: 80px;
     margin-left: 480px;
     animation: union 3s infinite;
@@ -82,11 +82,11 @@ header {
     }
 }
 
-.lights-animations{
+.hero__lights-animations{
     position: absolute;
     width: auto;
 }
-.lights-animations img{
+.hero__lights-animations img{
     width: auto;
     margin-top: 80px;
     margin-left: 760px;
@@ -115,16 +115,16 @@ header {
     justify-content: space-between;
     
 }
-.logo1{
+.hero__logo1{
     transform: scale(1);
     transition: transform 0.5s ease-in-out;
 }
-.logo1:hover{
+.hero__logo1:hover{
     transform: scaleX(-1) scale(1.5);
     cursor: pointer;
 }
 
-.headline {
+.hero__headline {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 700;
@@ -135,7 +135,7 @@ header {
     margin-top: 13px;
 }
 
-.lorem {
+.hero__lorem {
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
@@ -154,7 +154,7 @@ header {
     justify-content: space-evenly;
 }
 
-.section__headline {
+.main__section-headline {
     width: 669px;
     height: 119px;
     font-family: 'Oswald';
@@ -166,7 +166,7 @@ header {
     color: #464547;
 }
 
-.lorem-2 {
+.main__lorem-2 {
     width: 426px;
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -177,14 +177,14 @@ header {
     color: #666666;
 }
 
-.text-container {
+.main__text-container {
     width: 1200px;
     display: flex;
     justify-content: center;
     gap: 83px;
 }
 
-.text-container p {
+.main__text-container p {
     width: 416px;
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -216,7 +216,7 @@ button:hover{
     cursor: pointer;
 }
 
-.learn__more-container {
+.learn-more__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -225,7 +225,7 @@ button:hover{
     background-image: url("../assets/IMG_1334_72dpi_RGB_\ 1.png")
 }
 
-.learn_more {
+.learn-more__headline {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 700;
@@ -236,7 +236,7 @@ button:hover{
     margin-top: 50px;
 }
 
-.button-container {
+.learn-more__button-container {
     width: 100px;
     height: 100px;
     background-color: #54c1d7;
@@ -247,10 +247,10 @@ button:hover{
     cursor: pointer;
     transition: background-color 1s;
 }
-.button-container:hover{
+.learn-more__button-container:hover{
     background-color: white; 
 }
-.button-triangle {
+.learn-more__button-triangle {
     width: 0;
     height: 0;
     border-top: 20px solid transparent;
@@ -260,11 +260,11 @@ button:hover{
     transition: border 1s;
 }
 
-.button-triangle:hover {
+.learn-more__button-triangle:hover {
     border-left-color: #54c1d7;
   }
 
-.lorem-3 {
+.learn-more__lorem-3 {
     width: 351px;
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -297,7 +297,7 @@ footer span {
     color: rgba(255, 255, 255, 0.4);
 }
 
-.project_column{
+.footer__project-column{
     grid-area: title;
     justify-self: center;
 }
@@ -307,7 +307,7 @@ footer span {
     width: 20px;
 }
 
-.project-2 {
+.footer__project-2 {
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
@@ -347,14 +347,14 @@ footer span {
         padding: 20px;
     }
 
-    .project{
+    .hero__project{
         position: relative;
         margin-right: 0;
         left: 0;
         top: 0;
     }
 
-    .header_menu{
+    .hero__header-menu{
        cursor: pointer;
     }
 
@@ -369,11 +369,11 @@ footer span {
         flex-direction: column;
     }
     
-    .header_links {
+    .hero__header-links {
         display: none;
     }
 
-    .headline {
+    .hero__headline {
         width: 386.29px;
         height: 117.14px;
         font-family: 'Oswald';
@@ -385,7 +385,7 @@ footer span {
         margin-top: 13px;
     }
 
-    .lights-animations img{
+    .hero__lights-animations img{
         width: auto;
         opacity: 0;
         animation: fade 3s infinite;
@@ -403,22 +403,22 @@ footer span {
         justify-content: space-around;
     }
 
-    .section__headline {
+    .main__section-headline {
         text-align: left;
         width: 100%;
         height: auto;
         padding: 0 40px;
     }
 
-    .lorem-2 {
+    .main__lorem-2 {
         text-align: left;
         margin-left: 40px;
         width: auto;
     }
-    .text-container{
+    .main__text-container{
         width: 100%;
     }
-    .text-container p{
+    .main__text-container p{
         justify-content: flex-start;
     }
 
@@ -437,7 +437,7 @@ footer span {
         width: 100px;
     }
 
-    .text-container {
+    .main__text-container {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
@@ -457,7 +457,7 @@ footer span {
 }
 
 @media screen and (min-width: 769px) {
-    .header_menu {
+    .hero__header-menu {
         display: none;
     }
 }
